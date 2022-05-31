@@ -1,0 +1,30 @@
+body{
+    font-family:sans-serif;
+    margin: 30px;
+}
+.head{
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+#posts >div{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#posts span i{
+    margin:0 5px ;
+    cursor: pointer;
+}
+#msg{
+    color: red;
+    font-size: 14px;
+    margin: 5px 0px;
+}
